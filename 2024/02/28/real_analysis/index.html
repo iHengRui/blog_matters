@@ -20,28 +20,32 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="1 集合与点集1.1 集合与子集合定义. (集合) (Cantor) 集合 (set) 是指把具有某种特征或满足一定性质的所有对象或事物视为一个整体时，这一整体就称为集合，而这些事物或对象就称为属于该集合的元素。 定义. (子集) 对于两个集合 $A$ 与 $B$，若 $x \in A$ 必有 ($\Rightarrow$) $x \in B$，则称 $A$ 是 $B$ 的子集合，简称 $A$ 是">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2024/02/28/real_analysis/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1 集合与点集1.1 集合与子集合定义. (集合) (Cantor) 集合 (set) 是指把具有某种特征或满足一定性质的所有对象或事物视为一个整体时，这一整体就称为集合，而这些事物或对象就称为属于该集合的元素。 定义. (子集) 对于两个集合 $A$ 与 $B$，若 $x \in A$ 必有 ($\Rightarrow$) $x \in B$，则称 $A$ 是 $B$ 的子集合，简称 $A$ 是">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-02-28T05:34:15.250Z">
+<meta property="article:modified_time" content="2024-06-25T12:56:18.917Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2024/02/28/real_analysis/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Hexo</title>
+  <title> | Hexo</title>
   
 
 
@@ -139,79 +143,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/08/10/hello_world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/08/10/hello_world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2024-08-10 19:26:46" itemprop="dateCreated datePublished" datetime="2024-08-10T19:26:46+08:00">2024-08-10</time>
-            </span>
-
-          
-
-        </div>
-      </header>
 
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -227,10 +162,9 @@
       <meta itemprop="name" content="Hexo">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
+        <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2024/02/28/real_analysis/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -260,7 +194,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="1-集合与点集"><a href="#1-集合与点集" class="headerlink" title="1 集合与点集"></a>1 集合与点集</h1><h2 id="1-1-集合与子集合"><a href="#1-1-集合与子集合" class="headerlink" title="1.1 集合与子集合"></a>1.1 集合与子集合</h2><p>定义. (<strong>集合</strong>) (Cantor) 集合 (set) 是指把具有某种特征或满足一定性质的所有对象或事物视为一个整体时，这一整体就称为<strong>集合</strong>，而这些事物或对象就称为属于该集合的<strong>元素</strong>。</p>
+        <h1 id="1-集合与点集"><a href="#1-集合与点集" class="headerlink" title="1 集合与点集"></a>1 集合与点集</h1><h2 id="1-1-集合与子集合"><a href="#1-1-集合与子集合" class="headerlink" title="1.1 集合与子集合"></a>1.1 集合与子集合</h2><p>定义. (<strong>集合</strong>) (Cantor) 集合 (set) 是指把具有某种特征或满足一定性质的所有对象或事物视为一个整体时，这一整体就称为<strong>集合</strong>，而这些事物或对象就称为属于该集合的<strong>元素</strong>。</p>
 <p>定义. (<strong>子集</strong>) 对于两个集合 $A$ 与 $B$，若 $x \in A$ 必有 ($\Rightarrow$) $x \in B$，则称 $A$ 是 $B$ 的<strong>子集合</strong>，简称 $A$ 是 $B$ 的<strong>子集</strong>，记为<br>$$<br>A \subset B \text { 或 } B \supset A<br>$$<br>$A \subset B$ 也称为 $A$ 含于 $B$ 或 $B$ 包含 $A$。显然，$A \subset A$。若 $A \subset B$ 且存在 $B$ 中元素不属于 $A$，则称 $A$ 是 $B$ 的<strong>真子集</strong>，记为 $A \subsetneq B$。为了论述与运算的方便，我们还指定一种所谓<strong>空集</strong>，它是不包含任何元素的集合，记为 $\varnothing$。</p>
 <p>定义. (<strong>集合的相等</strong>) 设 $A, B$ 是两个集合。若 $A \subset B$ 且 $B \subset A$，则称集合 $A$ 与 $B$ <strong>相等或相同</strong>，记为 $A&#x3D;B$。</p>
 <p>定义. (<strong>集合族与集合列</strong>) 设 $I$ 是给定的一个集合。对于每一个 $\alpha \in I$，我们指定一个集合 $A_\alpha$，这样我们就得到许多集合，它们的总体称为<strong>集合族</strong>，记为 $\left{A_\alpha: \alpha \in I\right}$ 或 $\left{A_\alpha\right}_{\alpha \in I}$。这里的 $I$ 常称为<strong>指标集</strong>。当 $I&#x3D;\mathbb{N}$ 时，集合族也称为<strong>集合列</strong>，简记为 $\left{A_i\right}$ 或 $\left{A_k\right}$ 等。</p>
@@ -832,21 +766,30 @@
 <p>定理. (<strong>反 Minkowski 不等式</strong>) 若 $f, g \in L^p(E)(0 &lt; p &lt; 1)$，则<br>$$<br>|\left| f \right|+ \left| g \right||_p \geqslant|f|_p+|g|_p<br>$$</p>
 <p>定理. (<strong>Young 不等式</strong>） 设 $f \in L^1\left(\mathbb{R}^n\right), g \in L^p\left(\mathbb{R}^n\right)(1&lt;p&lt;$ $+\infty)$，则<br>$$<br>|f * g|_p \leqslant|f|_1 \cdot|g|<em>p<br>$$<br>其中<br>$$<br>(f * g) (x) &#x3D; \int</em>{\mathbb{R}^n} f(x-y)g(y) \mathrm{d} y<br>$$<br>表示 $f$ 与 $g$ 的卷积。</p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2024/08/10/hello_world/" rel="next" title="Hello World">
+      Hello World <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -899,6 +842,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E9%9B%86%E5%90%88%E4%B8%8E%E7%82%B9%E9%9B%86"><span class="nav-number">1.</span> <span class="nav-text">1 集合与点集</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-%E9%9B%86%E5%90%88%E4%B8%8E%E5%AD%90%E9%9B%86%E5%90%88"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 集合与子集合</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-%E9%9B%86%E5%90%88%E7%9A%84%E8%BF%90%E7%AE%97"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 集合的运算</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-3-%E6%98%A0%E5%B0%84%E4%B8%8E%E5%9F%BA%E6%95%B0"><span class="nav-number">1.3.</span> <span class="nav-text">1.3 映射与基数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-4-mathbb-R-n-%E4%B8%AD%E7%82%B9%E4%B8%8E%E7%82%B9%E4%B9%8B%E9%97%B4%E7%9A%84%E8%B7%9D%E7%A6%BB-%C2%B7-%E7%82%B9%E9%9B%86%E7%9A%84%E6%9E%81%E9%99%90%E7%82%B9"><span class="nav-number">1.4.</span> <span class="nav-text">1.4 $\mathbb{R}^n$ 中点与点之间的距离 · 点集的极限点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-5-mathbb-R-n-%E4%B8%AD%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%82%B9%E9%9B%86%EF%BC%9A%E9%97%AD%E9%9B%86-%C2%B7-Borel-%E9%9B%86-%C2%B7-Cantor-%E9%9B%86"><span class="nav-number">1.5.</span> <span class="nav-text">1.5 $\mathbb{R}^n$ 中的基本点集：闭集 · Borel 集 · Cantor 集</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-6-%E7%82%B9%E9%9B%86%E9%97%B4%E7%9A%84%E8%B7%9D%E7%A6%BB"><span class="nav-number">1.6.</span> <span class="nav-text">1.6 点集间的距离</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-Lebesgue-%E6%B5%8B%E5%BA%A6"><span class="nav-number">2.</span> <span class="nav-text">2 Lebesgue 测度</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-%E7%82%B9%E9%9B%86%E7%9A%84-Lebesgue-%E5%A4%96%E6%B5%8B%E5%BA%A6"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 点集的 Lebesgue 外测度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-%E5%8F%AF%E6%B5%8B%E9%9B%86%E4%B8%8E%E6%B5%8B%E5%BA%A6"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 可测集与测度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-3-%E5%8F%AF%E6%B5%8B%E9%9B%86%E4%B8%8E-Borel-%E9%9B%86%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 可测集与 Borel 集的关系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-4-%E6%AD%A3%E6%B5%8B%E5%BA%A6%E9%9B%86%E4%B8%8E%E7%9F%A9%E4%BD%93%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="nav-number">2.4.</span> <span class="nav-text">2.4 正测度集与矩体的关系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-5-%E4%B8%8D%E5%8F%AF%E6%B5%8B%E9%9B%86"><span class="nav-number">2.5.</span> <span class="nav-text">2.5 不可测集</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-6-%E8%BF%9E%E7%BB%AD%E5%8F%98%E6%8D%A2%E4%B8%8E%E5%8F%AF%E6%B5%8B%E9%9B%86"><span class="nav-number">2.6.</span> <span class="nav-text">2.6 连续变换与可测集</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-%E5%8F%AF%E6%B5%8B%E5%87%BD%E6%95%B0"><span class="nav-number">3.</span> <span class="nav-text">3 可测函数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#3-1-%E5%8F%AF%E6%B5%8B%E5%87%BD%E6%95%B0%E7%9A%84%E5%AE%9A%E4%B9%89%E5%8F%8A%E5%85%B6%E6%80%A7%E8%B4%A8"><span class="nav-number">3.1.</span> <span class="nav-text">3.1 可测函数的定义及其性质</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-2-%E5%8F%AF%E6%B5%8B%E5%87%BD%E6%95%B0%E5%88%97%E7%9A%84%E6%94%B6%E6%95%9B"><span class="nav-number">3.2.</span> <span class="nav-text">3.2 可测函数列的收敛</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-3-%E5%8F%AF%E6%B5%8B%E5%87%BD%E6%95%B0%E4%B8%8E%E8%BF%9E%E7%BB%AD%E5%87%BD%E6%95%B0%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="nav-number">3.3.</span> <span class="nav-text">3.3 可测函数与连续函数的关系</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-Lebesgue-%E7%A7%AF%E5%88%86"><span class="nav-number">4.</span> <span class="nav-text">4 Lebesgue 积分</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#4-1-%E9%9D%9E%E8%B4%9F%E5%8F%AF%E6%B5%8B%E5%87%BD%E6%95%B0%E7%9A%84%E7%A7%AF%E5%88%86"><span class="nav-number">4.1.</span> <span class="nav-text">4.1 非负可测函数的积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-2-%E4%B8%80%E8%88%AC%E5%8F%AF%E6%B5%8B%E5%87%BD%E6%95%B0%E7%9A%84%E7%A7%AF%E5%88%86"><span class="nav-number">4.2.</span> <span class="nav-text">4.2 一般可测函数的积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-3-%E5%8F%AF%E7%A7%AF%E5%87%BD%E6%95%B0%E4%B8%8E%E8%BF%9E%E7%BB%AD%E5%87%BD%E6%95%B0%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="nav-number">4.3.</span> <span class="nav-text">4.3 可积函数与连续函数的关系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-4-Lebesgue-%E7%A7%AF%E5%88%86%E4%B8%8E-Riemann-%E7%A7%AF%E5%88%86%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="nav-number">4.4.</span> <span class="nav-text">4.4 Lebesgue 积分与 Riemann 积分的关系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-5-%E9%87%8D%E7%A7%AF%E5%88%86%E4%B8%8E%E7%B4%AF%E6%AC%A1%E7%A7%AF%E5%88%86%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="nav-number">4.5.</span> <span class="nav-text">4.5 重积分与累次积分的关系</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-%E5%BE%AE%E5%88%86%E4%B8%8E%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86"><span class="nav-number">5.</span> <span class="nav-text">5 微分与不定积分</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#5-1-%E5%8D%95%E8%B0%83%E5%87%BD%E6%95%B0%E7%9A%84%E5%8F%AF%E5%BE%AE%E6%80%A7"><span class="nav-number">5.1.</span> <span class="nav-text">5.1 单调函数的可微性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-2-%E6%9C%89%E7%95%8C%E5%8F%98%E5%B7%AE%E5%87%BD%E6%95%B0"><span class="nav-number">5.2.</span> <span class="nav-text">5.2 有界变差函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-3-%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86%E7%9A%84%E5%BE%AE%E5%88%86"><span class="nav-number">5.3.</span> <span class="nav-text">5.3 不定积分的微分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-4-%E7%BB%9D%E5%AF%B9%E8%BF%9E%E7%BB%AD%E5%87%BD%E6%95%B0%E4%B8%8E%E5%BE%AE%E7%A7%AF%E5%88%86%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86"><span class="nav-number">5.4.</span> <span class="nav-text">5.4 绝对连续函数与微积分基本定理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-5-%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86%E5%85%AC%E5%BC%8F%E4%B8%8E%E7%A7%AF%E5%88%86%E4%B8%AD%E5%80%BC%E5%85%AC%E5%BC%8F"><span class="nav-number">5.5.</span> <span class="nav-text">5.5 分部积分公式与积分中值公式</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-L-p-%E7%A9%BA%E9%97%B4"><span class="nav-number">6.</span> <span class="nav-text">6 $L^p$ 空间</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#6-1-L-p-%E7%A9%BA%E9%97%B4%E7%9A%84%E5%AE%9A%E4%B9%89%E4%B8%8E%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">6.1.</span> <span class="nav-text">6.1 $L^p$ 空间的定义与不等式</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
